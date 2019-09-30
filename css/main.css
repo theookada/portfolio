@@ -1,0 +1,217 @@
+/***** BASE STYLES *****/
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2b2b2b;
+  width:100%;
+}
+
+#about, #skills, #contact {
+    height: 600px;
+}
+
+
+/***** GRID *****/
+.full-width{
+  width:100%;
+  margin: 0 auto;
+}
+
+.half-width{
+  width:50%;
+  float:left;
+}
+
+.third-width{
+  width:33%;
+  float:left;
+}
+
+
+/**** HEADER ****/
+header {
+    height: 600px;
+    background: url("../img/ocean.jpg");
+    background-size: cover;
+}
+
+header h1{
+  padding: 65px 0 65px 25px;
+  font-family: 'Lora', serif;
+  font-size: 2.5em;
+  color:#f2f2f2;
+}
+
+nav {
+    float: right;
+    padding: 75px 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size: 1.5em;
+    color: #f2f2f2;
+    padding-left: 80px;
+}
+
+header h2 {
+    width:80%;
+    clear:both;
+    font-family: 'Lora', serif;
+    font-size: 4em;
+    line-height: 80px;
+    color: #f2f2f2;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #C49075;
+}
+
+
+/**** ABOUT ****/
+#about .full-width{
+  padding:80px 0;
+}
+
+#about h2{
+  font-family:'Lora', serif;
+  font-size:2.5em;
+  padding:0px 50px;
+}
+
+#about p{
+  font-size: 1.25em;
+  color:#7f7f7f;
+  line-height:40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+/**** WORK ****/
+#skills{
+  background:#1C3D66;
+  text-align: center;
+
+}
+
+#skills .full-width{
+  padding: 115px 0;
+}
+
+#skills img{
+  padding-bottom: 30px;
+}
+
+#skills h3{
+  font-size:1.5em;
+  line-height: 32px;
+  width: 45%;
+  margin: 0 auto;
+  color:#f2f2f2;
+}
+
+#skills p{
+  font-family: 'Lora', serif;
+  font-size: 1.25em;
+  line-height: 30px;
+  padding: 0 50px;
+  color: #f2f2f2;
+}
+
+
+/****CONTACT****/
+#contact{
+  background:#EBEBEB;
+}
+
+#contact .full-width{
+  padding:110px 0;
+}
+
+#contact img#contact-img{
+  margin-left: 5%;
+  border: 12px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 1.75em;
+    font-weight: lighter;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: clean;
+    color: #C49075;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 1.5em;
+    padding-right: 48px;
+}
+
+
+/****WORK****/
+#work{
+  height: 1000px;
+}
+
+#work .full-width{
+  padding: 50px 50px;
+}
+
+#work img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  min-width: 150px;
+  max-width: 450px;/* Set a small width */
+  height:300px;
+}
+
+/* Add a hover effect (blue shadow) */
+#work img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#work h2{
+  font-family:'Lora', serif;
+  font-size:1.5em;
+  padding:0px 50px;
+}
+
+#work p{
+  font-size: 1em;
+  color:#7f7f7f;
+  line-height:40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
